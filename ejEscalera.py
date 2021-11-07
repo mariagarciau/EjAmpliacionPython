@@ -1,5 +1,4 @@
-    """
-    Esta es una escalera de tamaño n= 4:
+"""Esta es una escalera de tamaño n= 4:
    #
   ##
  ###
@@ -22,36 +21,12 @@ Salida de muestra
   ####
  #####
 ######
-#!/bin/python3
-import math
-import os
-import random
-import re
-import sys
-#
-# Complete the 'staircase' function below.
-#
-# The function accepts INTEGER n as parameter.
-#
-def staircase(n):
-    # Write your code here
-if __name__ == '__main__':
-    n = int(input().strip())
-    staircase(n)
     """
-#!/bin/python3
-import math
-import os
-import random
-import re
-import sys
-#
-# Complete the 'staircase' function below.
-#
-# The function accepts INTEGER n as parameter.
-#
-def staircase(n):
-    # Write your code here
-    if __name__ == '__main__':
-        n = int(input().strip())
-        staircase(n)
+n = int(input("Introduce un número: "))
+for altura in range(n):
+    for ancho in range(altura+1):
+        espacios = n*ancho
+        print(espacios*'',end="#")
+    print()
+
+
