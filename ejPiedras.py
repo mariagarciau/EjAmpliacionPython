@@ -9,4 +9,11 @@ el juego si existe un movimiento ganador.
 • Por ejemplo, si n=4, P1  puede hacer los siguientes movimientos:
 • P1 elimina 2 piedras quedando 2. P2 luego eliminará 2  piedras y ganar.
 • P1 elimina 3 piedras quedando 1. P2 no se puede mover y pierde.
-    """
+"""
+n=int(input("Introduzca un numero "))
+if n<=1:
+    print("P1 pierde")
+else:
+    if n==2 or n==3:
+        print("P1 gana")
+    if n
