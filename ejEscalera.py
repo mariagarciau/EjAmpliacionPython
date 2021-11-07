@@ -25,8 +25,6 @@ Salida de muestra
 n = int(input("Introduce un número: "))
 for altura in range(n):
     for ancho in range(altura+1):
-        espacios = n*ancho
-        print(espacios*'',end="#")
+        print(end="#")
     print()
-
 
