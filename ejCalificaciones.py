@@ -19,13 +19,19 @@ from typing import no_type_check_decorator
 nota = int(input("Introduzca la nota obtenida entre 0 y 100 incluidos: "))
 contador =0
 if nota<=40:
-    print("Tu nota es "+str(nota))
+    print("Tu nota es "+str(nota)+". Estas suspenso")
 if nota>40 and nota%5==0:
     print("Tu nota es "+str(nota))
-while (nota%5!=0):
-    contador+1
-    if contador >=3:
-        break
-    if nota%5!=0 and contador<3:
-        nota+1
-        print("Tu nota es "+ str(nota))
+if nota >40:
+    if (nota+2)%5==0:
+        print("Tu nota es "+str(nota+2))
+    else:
+        print("Tu nota es "+str(nota))
+    '''while (nota%5!=0):
+        contador+1
+        if contador >=3:
+            break
+        if nota%5!=0 and contador<3:
+            nota+1
+            print("Tu nota es "+ str(nota))
+            break'''
