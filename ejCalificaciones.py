@@ -25,13 +25,7 @@ if nota>40 and nota%5==0:
 if nota >40:
     if (nota+2)%5==0:
         print("Tu nota es "+str(nota+2))
+    elif (nota+1)%5==0:
+        print("Tu nota es "+str(nota+1))
     else:
         print("Tu nota es "+str(nota))
-    '''while (nota%5!=0):
-        contador+1
-        if contador >=3:
-            break
-        if nota%5!=0 and contador<3:
-            nota+1
-            print("Tu nota es "+ str(nota))
-            break'''
