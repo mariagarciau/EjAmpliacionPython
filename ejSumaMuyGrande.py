@@ -11,3 +11,12 @@ Formato de entrada
 La primera línea de la entrada consta de un número entero .
 La siguiente línea contiene enteros separados por espacios contenidos en la matriz.
 """
+nfilas = int(input("ingrese el numero de filas "))
+mcolumnas = int(input("ingrese el numero de columnas"))
+matriz = [[0 for i in range(nfilas)] for j in range(mcolumnas)]
+sumaTotal=0
+for i in range(nfilas):
+    for j in range(mcolumnas):
+        matriz[i][j] = int(input("ingrese un numero "))
+        sumaTotal= sumaTotal+ matriz[i][j]
+print(sumaTotal)
