@@ -26,3 +26,11 @@ La primera línea contiene 3 números enteros separados por espacios, un a[0] , 
 los valores respectivos al desafío a . La segunda línea contiene 3 números enteros separados por espacios,
 b [0] , b [1] , y b [2] , los valores respectivos al desafío b .
 """
+a1=int(input("Introduce la primera nota de Lucia: "))
+a2=int(input("Introduce la segunda nota de Lucia: "))
+a3=int(input("Introduce la tercera nota de Lucia: "))
+b1=int(input("Introduce la primera nota de Carlos: "))
+b2=int(input("Introduce la segunda nota de Carlos: "))
+b3=int(input("Introduce la tercera nota de Carlos: "))
+lucia =list[a1,a2,a3]
+carlos =list[b1,b2,b3]
