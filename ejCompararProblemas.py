@@ -32,14 +32,27 @@ a3=int(input("Introduce la tercera nota de Lucia: "))
 b1=int(input("Introduce la primera nota de Carlos: "))
 b2=int(input("Introduce la segunda nota de Carlos: "))
 b3=int(input("Introduce la tercera nota de Carlos: "))
-lucia =list[a1,a2,a3]
-carlos =list[b1,b2,b3]
+lucia =[a1,a2,a3]
+carlos =[b1,b2,b3]
 puntosl = 0
 puntosc = 0
-for i in range (list:)
-    if lucia[i]> carlos[i]:
-        puntosl+1
-    elif lucia[i]< carlos[i]:
-        puntosc+1
-    else:
-        None
+if lucia[0] > carlos[0]:
+    puntosl+=1
+elif lucia[0]< carlos[0]:
+    puntosc+=1
+if lucia[1]> carlos[1]:
+    puntosl+=1
+elif lucia[1]< carlos[1]:
+    puntosc+=1
+if lucia[2]> carlos[2]:
+    puntosl+=1
+elif lucia[2]< carlos[2]:
+    puntosc+=1
+print("Carlos tiene "+ str(puntosc)+ " puntos")
+print("Lucía tiene "+ str(puntosl)+ " puntos")
+if puntosl>puntosc:
+    print ("Ha ganado Lucía")
+elif puntosl<puntosc:
+    print ("Ha ganado Carlos")
+else:
+    print ("No ha ganado nadie")
