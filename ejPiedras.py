@@ -16,7 +16,7 @@ if n<=1:
 else:
     if n==2 or n==3:
         print("P1 gana")
-    if n%2==0 and n!= 2:
+    if n%2==0 and n!=2:
         print("P2 gana")
     if n%2!=0:
         print("P1 gana")
