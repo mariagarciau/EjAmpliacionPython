@@ -34,3 +34,12 @@ b2=int(input("Introduce la segunda nota de Carlos: "))
 b3=int(input("Introduce la tercera nota de Carlos: "))
 lucia =list[a1,a2,a3]
 carlos =list[b1,b2,b3]
+puntosl = 0
+puntosc = 0
+for i in range (list:)
+    if lucia[i]> carlos[i]:
+        puntosl+1
+    elif lucia[i]< carlos[i]:
+        puntosc+1
+    else:
+        None
